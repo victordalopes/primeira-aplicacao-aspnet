@@ -12,6 +12,5 @@ namespace CursoMVC.Models
         [Display(Name = "Descrição")] // Para que apareça 'Descrição", com cedilha e acentos
         [Required(ErrorMessage = "O campo decrição é obrigatório!")]
         public string Descricao { get; set; }
-        public List<Produto> Produtos { get; set; }
     }
 }
